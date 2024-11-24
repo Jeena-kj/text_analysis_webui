@@ -28,7 +28,7 @@ A simple web application built with React that analyzes the text input to provid
 1. **Clone this repository to your local machine**.
    git clone https://github.com/Jeena-kj/text_analysis_webui.git
 2. **Navigate to the project folder**:
-   cd job-search-app
+   cd text_analysis_webui
 3. **Install dependencies**:
    npm install
 4. **Run the development server**:

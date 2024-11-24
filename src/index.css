@@ -1,13 +1,132 @@
+/* General Body Styling */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Arial', sans-serif;
+  background-color: #94c7a0 !important; /* Light green background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* App Container */
+.app {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Section */
+.header {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 97px 0 20px 0;
+  text-align: right;
+}
+
+.main-text {
+  font-size: 2rem;
+  border: 6px solid white;
+  padding: 8px;
+  text-align: center;
+  background-color: #28a745; /* Green background */
+  margin-bottom: 10px;
+}
+
+.middle {
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  color: #333;
+}
+
+.sub-text {
+  font-size: 2rem;
+  border: 6px solid #28a745;
+  padding: 8px;
+  text-align: center;
+  background-color: white;
+  color: #28a745;
+}
+
+.bg-subtext {
+  background-color: white;
+  color: #28a745;
+  border: 6px solid #28a745 !important;
+  border-radius: 10px;
+}
+
+/* Input Card Section */
+.left-card {
+  padding: 30px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.text-input {
+  width: 100%;
+  height: 200px;
+  border: 5px solid #28a745; /* Green border */
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+.analyze-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.analyze-btn:hover {
+  background-color: #218838;
+}
+
+/* Analysis Section */
+.analysis-container {
+  background-color: #94c7a0; /* Light green background */
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.analysis-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.analysis-container div p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.text-success {
+  position: relative;
+  background-color: white;
+  padding: 5px 15px;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.export-btn {
+  padding: 5px 10px !important;
+  font-size: 12px !important;
 }
